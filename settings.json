@@ -47,12 +47,15 @@
         "list": 
         [
             {
+                "name": "Windows PowerShell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
                 "backgroundImage": "ms-appdata:///roaming/dna.jpg",
                 "backgroundImageOpacity": 0.9,
                 "backgroundImageStretchMode": "none",
                 "backgroundImageStretchMode": "fill",
                 //"backgroundImageStretchMode": "uniformToFill",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
                 "font": 
@@ -60,21 +63,38 @@
                     "face": "Consolas",
                     "size": 18.0
                 },
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell",
                 "opacity": 20,
                 "padding": "12, 12, 0, 0",
                 "snapOnInput": true,
                 "useAcrylic": false
             },
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "hidden": false,
-                "name": "Command Prompt"
+                "backgroundImage": "ms-appdata:///roaming/dna.jpg",
+                "backgroundImageOpacity": 0.9,
+                "backgroundImageStretchMode": "none",
+                "backgroundImageStretchMode": "fill",
+                //"backgroundImageStretchMode": "uniformToFill",
+                "cursorColor": "#FFFFFF",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 18.0
+                },
+                "opacity": 20,
+                "padding": "12, 12, 0, 0",
+                "snapOnInput": true,
+                "useAcrylic": false
             },
             {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
                 "backgroundImage": "ms-appdata:///roaming/au-os-L.png",
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageStretchMode": "none",
@@ -83,13 +103,8 @@
                 {
                     "face": "Cascadia Code",
                     "size": 18.0
-
                 },
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
                 "opacity": 85,
-                "source": "Windows.Terminal.Wsl",
                 "useAcrylic": true
             },
             {
@@ -122,23 +137,30 @@
                 "useAcrylic": true
             },
             {
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "guid": "{188683c0-b974-4598-be69-da505714e639}",
+                "hidden": false,
+                "icon": " C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash"
+            },
+            {
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "guid": "{188683c0-b974-4598-be69-da505714e640}",
+                "hidden": false,
+                "icon": " C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash Fancy",
                 "backgroundImage": "ms-appdata:///roaming/au-os-L.png",
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageStretchMode": "none",
                 "colorScheme": "Aurelia",
-                "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
                 "font": 
                 {
                     "face": "Cascadia Code",
                     "size": 18.0
                 },
-                "guid": "{78b4b215-5722-447b-8b7e-093f96493df2}",
-                "hidden": false,
-                "name": "Git Bash",
                 "opacity": 85,
-                "tabTitle": "Bash",
                 "useAcrylic": true
-            },
+            }
         ]
     },
     "schemes": 
@@ -165,6 +187,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#EAEAEA",
             "yellow": "#CE9178"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "tokyonight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
         },
         {
             "background": "#0C0C0C",
@@ -395,29 +440,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "background": "#1A1B26",
-            "black": "#15161E",
-            "blue": "#7AA2F7",
-            "brightBlack": "#414868",
-            "brightBlue": "#7AA2F7",
-            "brightCyan": "#7DCFFF",
-            "brightGreen": "#9ECE6A",
-            "brightPurple": "#BB9AF7",
-            "brightRed": "#F7768E",
-            "brightWhite": "#C0CAF5",
-            "brightYellow": "#E0AF68",
-            "cursorColor": "#C0CAF5",
-            "cyan": "#7DCFFF",
-            "foreground": "#C0CAF5",
-            "green": "#9ECE6A",
-            "name": "tokyonight",
-            "purple": "#BB9AF7",
-            "red": "#F7768E",
-            "selectionBackground": "#33467C",
-            "white": "#A9B1D6",
-            "yellow": "#E0AF68"
         }
     ],
     "themes": []
