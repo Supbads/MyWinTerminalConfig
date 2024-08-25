@@ -63,7 +63,7 @@
                     "face": "Consolas",
                     "size": 18.0
                 },
-                "opacity": 20,
+                "opacity": 50,
                 "padding": "12, 12, 0, 0",
                 "snapOnInput": true,
                 "useAcrylic": false
@@ -92,9 +92,16 @@
             },
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
+                "hidden": false,
+                "name": "UbuntuWSL",
                 "source": "Windows.Terminal.Wsl",
+                "opacity": 85,
+                //"colorScheme": "tokyonight",
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "name": "Ubuntu Fancy",
+                "hidden": false,
                 "backgroundImage": "ms-appdata:///roaming/au-os-L.png",
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageStretchMode": "none",
@@ -104,37 +111,14 @@
                     "face": "Cascadia Code",
                     "size": 18.0
                 },
-                "opacity": 85,
-                "useAcrylic": true
+                "opacity": 90,
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{978bdd72-12b9-5940-9bd1-5744dc2c6ef9}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "backgroundImage": "ms-appdata:///roaming/au-os-L.png",
-                "backgroundImageAlignment": "bottomRight",
-                "backgroundImageStretchMode": "none",
-                "colorScheme": "Aurelia",
-                "font": 
-                {
-                    "face": "Cascadia Code",
-                    "size": 18.0
-                },
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "opacity": 85,
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
-                "useAcrylic": true
             },
             {
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -158,8 +142,7 @@
                     "face": "Cascadia Code",
                     "size": 18.0
                 },
-                "opacity": 85,
-                "useAcrylic": true
+                "opacity": 90
             }
         ]
     },
